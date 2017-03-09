@@ -1,0 +1,6 @@
+@(code: String, typeMsg: String, msg: String)
+
+<msg code="@code">
+    <Type>@typeMsg</Type>
+    <description>@msg</description>
+</msg>
