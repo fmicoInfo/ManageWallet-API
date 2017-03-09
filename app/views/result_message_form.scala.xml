@@ -1,0 +1,7 @@
+@(form: Form[Object])
+
+<msg>
+    @for(v <- form.globalErrors) {
+        <problem>v.messages</problem>
+    }
+</msg>
