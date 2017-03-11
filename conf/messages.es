@@ -1,0 +1,18 @@
+
+### API-Message ###
+api.1009 = "Ya existe un usuario"
+api.1201 = "El registro se ha generado correctamente"
+api.1209 = "El registro se ha eliminado correctamente"
+api.1400 = "Tienes algunos errores en el formulario o has cometido errores de sintaxis"
+api.1401 = "No esta autorizado"
+api.1404 = "Este registro no existe"
+api.1406 = "Este servidor no acepta ningúno de los formatos que soporta el cliente"
+api.1500 = "Error interno del servidor"
+api.2200 = "El registro ha sido modificado"
+api.2250 = "No se ha podido guardar el usario debido a un problema con la codificación de la contraseña"
+api.2404 = "Estos registros no existen"
+api.2406 = "Este servidor no acepta ningúno de los formatos que envía el cliente"
+api.3401 = "Ha cerra la sesión"
+api.3800 = "Se esperaban datos Json"
+api.3900 = "Se esperaban datos XML"
+api.3901 = "Falta algún parámetro"
