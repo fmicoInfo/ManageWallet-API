@@ -1,0 +1,18 @@
+
+### API-Message ###
+api.1009 = "It exists users yet"
+api.1201 = "The register was successfully generated"
+api.1209 = "The register was successfully deleted"
+api.1400 = "You have entered some mistakes or have been wrong with the syntax"
+api.1401 = "Unauthorized"
+api.1404 = "This register doesn't exist"
+api.1406 = "This server doesn't accept any formats supported by client"
+api.1500 = "Server internal error"
+api.2200 = "This register has be modified"
+api.2250 = "Failed to save user due to a problem with password encoding"
+api.2404 = "These register don´t exist"
+api.2406 = "This server doesn't accept any formats sent by client"
+api.3401 = "Sign out"
+api.3800 = "It was expected Json data"
+api.3900 = "It was expected XML data"
+api.3901 = "Missing some parameter"

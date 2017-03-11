@@ -1,0 +1,7 @@
+@(users: List[User])
+
+<users>
+    @for(v <- users) {
+        @user(v)
+    }
+</users>

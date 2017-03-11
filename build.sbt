@@ -11,3 +11,6 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(PlayEbean)
+libraryDependencies += evolutions

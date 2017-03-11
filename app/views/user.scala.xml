@@ -1,0 +1,11 @@
+@(user: User)
+
+<user id="@user.getId">
+    <name>@user.getFirstName</name>
+    <surename>@user.getSureName</surename>
+    <email>@user.getEmail</email>
+    <version>@user.getVersion</version>
+    <when_created>@user.getWhenCreated</when_created>
+    <when_updated>@user.getWhenUpdated</when_updated>
+    <when_access>@user.getWhenAccess</when_access>
+</user>

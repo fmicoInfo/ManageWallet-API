@@ -11,3 +11,22 @@ GET     /message                    controllers.AsyncController.message
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~ #
+#           User            #
+# ~~~~~~~~~~~~~~~~~~~~~~~~~ #
+GET     /users                          controllers.UserController.list(page: Int ?= 0, count: Int ?= 5)
+GET     /user/:id                       controllers.UserController.retrieve(id: Long)
+POST    /users                          controllers.UserController.create
+PUT     /user/:id                       controllers.UserController.update(id: Long)
+DELETE  /user/:id                       controllers.UserController.remove(id: Long)
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~ #
+#           Login           #
+# ~~~~~~~~~~~~~~~~~~~~~~~~~ #
+
+POST    /login                           controllers.LoginController.login
+GET     /logout                          controllers.LoginController.logout
+POST    /firstuser                       controllers.LoginController.firstUser
